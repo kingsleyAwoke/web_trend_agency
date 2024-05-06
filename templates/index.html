@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
+    <!--====== TOP HEADER ======-->
     <header>
         <div class="navbar">
             <div class="logo">
@@ -48,18 +49,44 @@
 
             <div class="nav-items">
                 <div class="nav-links">
-                    <a href="">Home</a>
-                    <a href="">About</a>
-                    <a href="">Services</a>
-                    <a href="">Contact</a>
+                    <a href="#" class="active nav-item">Home</a>
+                    <a href="#about" class="nav-item">About</a>
+                    <a href="#services" class="nav-item">Services</a>
+                    <a href="#contact" class="nav-item">Contact</a>
+                
+                    <button class="nav-btn nav-item" type="button">Get Started</button>
                 </div>
                 
-                <div>
-                    <button class="nav-btn" type="button">Get Started</button>
+                <div class="toggle-menu">
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox" class="toggle">
+                        <div class="bars" id="bar1"></div>
+                        <div class="bars" id="bar2"></div>
+                        <div class="bars" id="bar3"></div>
+                    </label>                     
                 </div>
             </div>
         </div>
     </header>
+
+    <!--====== HERO SECTION ======-->
+    <section id="hero" class="home">
+        <div class="hero-content">
+            <div>
+                <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</h1>
+                <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit"</p>
+            </div>
+    
+            <div class="cta">
+                <a class="cta-btn" type="button">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <!--====== ABOUT SECTION ======-->
+    <section id="about">
+        
+    </section>
     
     <script src="{% static 'script/script.js' %}"></script>
 </body>
