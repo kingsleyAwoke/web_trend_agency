@@ -18,7 +18,7 @@ Ensure that you meet the following requirements:
 - Django 5.0.4
 
 ### Installation
-1. Clone the repository to your local machine :
+1. Fork & Clone the repository to your local machine :
     ```bash```
         git clone https://github.com/kingsleyAwoke/web_trend_agency.git
 2. Change into the project directory:
