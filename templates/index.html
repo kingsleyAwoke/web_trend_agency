@@ -2,92 +2,290 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Trend Agency</title>
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
-</head>
-<body>
+
+    <!-- :::::::::: CSS ::::::::::-->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+
+    <!-- :::::::::: ICON ::::::::::-->
+    <!-- css.gg -->
+    <link href="https://css.gg/css" rel="stylesheet" />
+
+    <!-- UNPKG -->
+    <link href="https://unpkg.com/css.gg/icons/icons.css" rel="stylesheet" />
+
+    <!-- JSDelivr -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/css.gg/icons/icons.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!--====== TOP HEADER ======-->
     <header>
-        <div class="navbar">
-            <div class="logo">
-                <a href="#">
-                    <svg width="200" height="50" viewBox="0 0 759 185" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_0_1)">
-                        <circle cx="29.4314" cy="56.601" r="2.5" transform="rotate(-11.3768 29.4314 56.601)" fill="#6E796D"/>
-                        <circle cx="146.087" cy="28.0279" r="12.5" transform="rotate(-11.3768 146.087 28.0279)" fill="#6E796D"/>
-                        <circle cx="109.817" cy="37.8761" r="10" transform="rotate(-11.3768 109.817 37.8761)" fill="#6E796D"/>
-                        <circle cx="78.0544" cy="44.7772" r="7.5" transform="rotate(-11.3768 78.0544 44.7772)" fill="#6E796D"/>
-                        <circle cx="51.3906" cy="51.6724" r="5" transform="rotate(-11.3768 51.3906 51.6724)" fill="#6E796D"/>
-                        <circle cx="45.2003" cy="124.831" r="2.5" transform="rotate(-11.3768 45.2003 124.831)" fill="#6E796D"/>
-                        <circle cx="161.27" cy="98.4159" r="12.5" transform="rotate(-11.3768 161.27 98.4159)" fill="#6E796D"/>
-                        <circle cx="125.586" cy="106.106" r="10" transform="rotate(-11.3768 125.586 106.106)" fill="#6E796D"/>
-                        <circle cx="93.8234" cy="113.007" r="7.5" transform="rotate(-11.3768 93.8234 113.007)" fill="#6E796D"/>
-                        <circle cx="67.1596" cy="119.902" r="5" transform="rotate(-11.3768 67.1596 119.902)" fill="#6E796D"/>
-                        <circle cx="52.3017" cy="160.124" r="2.5" transform="rotate(-11.3768 52.3017 160.124)" fill="#6E796D"/>
-                        <circle cx="168.372" cy="133.709" r="12.5" transform="rotate(-11.3768 168.372 133.709)" fill="#6E796D"/>
-                        <circle cx="132.688" cy="141.399" r="10" transform="rotate(-11.3768 132.688 141.399)" fill="#6E796D"/>
-                        <circle cx="100.925" cy="148.3" r="7.5" transform="rotate(-11.3768 100.925 148.3)" fill="#6E796D"/>
-                        <circle cx="74.261" cy="155.195" r="5" transform="rotate(-11.3768 74.261 155.195)" fill="#6E796D"/>
-                        <circle cx="36.5328" cy="91.8936" r="2.5" transform="rotate(-11.3768 36.5328 91.8936)" fill="#6E796D"/>
-                        <circle cx="153.189" cy="63.3205" r="12.5" transform="rotate(-11.3768 153.189 63.3205)" fill="#6E796D"/>
-                        <circle cx="116.919" cy="73.1687" r="10" transform="rotate(-11.3768 116.919 73.1687)" fill="#6E796D"/>
-                        <circle cx="85.1558" cy="80.0698" r="7.5" transform="rotate(-11.3768 85.1558 80.0698)" fill="#6E796D"/>
-                        <circle cx="58.492" cy="86.965" r="5" transform="rotate(-11.3768 58.492 86.965)" fill="#6E796D"/>
-                        </g>
-                        <path d="M197.213 143L171.183 9.99999H188.853L206.523 99.87L224.194 9.99999H241.864L259.344 99.87L277.014 9.99999H294.684L268.653 143H250.224L232.933 54.84L215.643 143H197.213ZM312.656 143C308.856 143 305.563 141.67 302.776 139.01C300.116 136.223 298.786 132.93 298.786 129.13V61.68C298.786 57.88 300.116 54.65 302.776 51.99C305.563 49.33 308.856 48 312.656 48H338.496C342.423 48 345.716 49.33 348.376 51.99C351.036 54.65 352.366 57.88 352.366 61.68V90.56C352.366 94.36 351.036 97.6533 348.376 100.44C345.716 103.1 342.423 104.43 338.496 104.43H316.646V118.3C316.646 120.2 317.28 121.847 318.546 123.24C319.94 124.507 321.65 125.14 323.676 125.14H348.376L352.366 143H312.656ZM316.646 86.57H327.666C329.566 86.57 331.15 85.9367 332.416 84.67C333.81 83.2767 334.506 81.63 334.506 79.73V72.7C334.506 70.8 333.81 69.2167 332.416 67.95C331.15 66.5567 329.566 65.86 327.666 65.86H323.676C321.65 65.86 319.94 66.5567 318.546 67.95C317.28 69.2167 316.646 70.8 316.646 72.7V86.57ZM365.769 143V4.48999L383.629 0.499989V48H405.479C409.279 48 412.509 49.33 415.169 51.99C417.955 54.65 419.349 57.9433 419.349 61.87V129.13C419.349 132.93 417.955 136.223 415.169 139.01C412.509 141.67 409.279 143 405.479 143H365.769ZM383.629 125.14H394.459C396.359 125.14 398.005 124.507 399.399 123.24C400.792 121.847 401.489 120.2 401.489 118.3V72.7C401.489 70.8 400.792 69.2167 399.399 67.95C398.005 66.5567 396.359 65.86 394.459 65.86H383.629V125.14ZM471.97 143V27.67H445.56V9.99999H516.05V27.67H489.64V143H471.97ZM513.761 143V48H553.471C557.271 48 560.501 49.3933 563.161 52.18C565.948 54.84 567.341 58.07 567.341 61.87V82.58L549.481 78.59V72.89C549.481 70.99 548.784 69.3433 547.391 67.95C546.124 66.5567 544.541 65.86 542.641 65.86H531.621V143H513.761ZM588.861 143C585.061 143 581.768 141.67 578.981 139.01C576.321 136.223 574.991 132.93 574.991 129.13V61.68C574.991 57.88 576.321 54.65 578.981 51.99C581.768 49.33 585.061 48 588.861 48H614.701C618.628 48 621.921 49.33 624.581 51.99C627.241 54.65 628.571 57.88 628.571 61.68V90.56C628.571 94.36 627.241 97.6533 624.581 100.44C621.921 103.1 618.628 104.43 614.701 104.43H592.851V118.3C592.851 120.2 593.485 121.847 594.751 123.24C596.145 124.507 597.855 125.14 599.881 125.14H624.581L628.571 143H588.861ZM592.851 86.57H603.871C605.771 86.57 607.355 85.9367 608.621 84.67C610.015 83.2767 610.711 81.63 610.711 79.73V72.7C610.711 70.8 610.015 69.2167 608.621 67.95C607.355 66.5567 605.771 65.86 603.871 65.86H599.881C597.855 65.86 596.145 66.5567 594.751 67.95C593.485 69.2167 592.851 70.8 592.851 72.7V86.57ZM640.737 143V48H680.447C684.121 48 687.351 49.33 690.137 51.99C692.924 54.65 694.317 57.88 694.317 61.68V143H676.457V72.7C676.457 70.6733 675.761 69.0267 674.367 67.76C672.974 66.4933 671.391 65.86 669.617 65.86H658.597V143H640.737ZM718.373 143C714.446 143 711.153 141.67 708.493 139.01C705.833 136.35 704.503 133.057 704.503 129.13V61.87C704.503 57.9433 705.833 54.65 708.493 51.99C711.153 49.33 714.446 48 718.373 48H740.223V4.67999L758.083 0.499989V143H718.373ZM729.203 125.14H740.223V65.86H729.203C727.43 65.86 725.846 66.4933 724.453 67.76C723.06 69.0267 722.363 70.6733 722.363 72.7V118.3C722.363 120.073 723.06 121.657 724.453 123.05C725.846 124.443 727.43 125.14 729.203 125.14Z" fill="#3A3389"/>
-                        <defs>
-                        <clipPath id="clip0_0_1">
-                        <rect width="175" height="143" fill="white" transform="translate(0 44.6722) rotate(-11.3768)"/>
-                        </clipPath>
-                        </defs>
-                    </svg>
-                </a>
-            </div>
-
-            <div class="nav-items">
-                <div class="nav-links">
-                    <a href="#" class="active nav-item">Home</a>
-                    <a href="#about" class="nav-item">About</a>
-                    <a href="#services" class="nav-item">Services</a>
-                    <a href="#contact" class="nav-item">Contact</a>
-                
-                    <button class="nav-btn nav-item" type="button">Get Started</button>
-                </div>
-                
-                <div class="toggle-menu">
-                    <input type="checkbox" id="checkbox">
-                    <label for="checkbox" class="toggle">
-                        <div class="bars" id="bar1"></div>
-                        <div class="bars" id="bar2"></div>
-                        <div class="bars" id="bar3"></div>
-                    </label>                     
-                </div>
-            </div>
+      <div class="navbar">
+        <div class="logo">
+          <a href="#">
+            <svg
+              width="200"
+              height="50"
+              viewBox="0 0 759 185"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_0_1)">
+                <circle
+                  cx="29.4314"
+                  cy="56.601"
+                  r="2.5"
+                  transform="rotate(-11.3768 29.4314 56.601)"
+                  fill="#6E796D"
+                />
+                <circle
+                  cx="146.087"
+                  cy="28.0279"
+                  r="12.5"
+                  transform="rotate(-11.3768 146.087 28.0279)"
+                  fill="#6E796D"
+                />
+                <circle
+                  cx="109.817"
+                  cy="37.8761"
+                  r="10"
+                  transform="rotate(-11.3768 109.817 37.8761)"
+                  fill="#6E796D"
+                />
+                <circle
+                  cx="78.0544"
+                  cy="44.7772"
+                  r="7.5"
+                  transform="rotate(-11.3768 78.0544 44.7772)"
+                  fill="#6E796D"
+                />
+                <circle
+                  cx="51.3906"
+                  cy="51.6724"
+                  r="5"
+                  transform="rotate(-11.3768 51.3906 51.6724)"
+                  fill="#6E796D"
+                />
+                <circle
+                  cx="45.2003"
+                  cy="124.831"
+                  r="2.5"
+                  transform="rotate(-11.3768 45.2003 124.831)"
+                  fill="#6E796D"
+                />
+                <circle
+                  cx="161.27"
+                  cy="98.4159"
+                  r="12.5"
+                  transform="rotate(-11.3768 161.27 98.4159)"
+                  fill="#6E796D"
+                />
+                <circle
+                  cx="125.586"
+                  cy="106.106"
+                  r="10"
+                  transform="rotate(-11.3768 125.586 106.106)"
+                  fill="#6E796D"
+                />
+                <circle
+                  cx="93.8234"
+                  cy="113.007"
+                  r="7.5"
+                  transform="rotate(-11.3768 93.8234 113.007)"
+                  fill="#6E796D"
+                />
+                <circle
+                  cx="67.1596"
+                  cy="119.902"
+                  r="5"
+                  transform="rotate(-11.3768 67.1596 119.902)"
+                  fill="#6E796D"
+                />
+                <circle
+                  cx="52.3017"
+                  cy="160.124"
+                  r="2.5"
+                  transform="rotate(-11.3768 52.3017 160.124)"
+                  fill="#6E796D"
+                />
+                <circle
+                  cx="168.372"
+                  cy="133.709"
+                  r="12.5"
+                  transform="rotate(-11.3768 168.372 133.709)"
+                  fill="#6E796D"
+                />
+                <circle
+                  cx="132.688"
+                  cy="141.399"
+                  r="10"
+                  transform="rotate(-11.3768 132.688 141.399)"
+                  fill="#6E796D"
+                />
+                <circle
+                  cx="100.925"
+                  cy="148.3"
+                  r="7.5"
+                  transform="rotate(-11.3768 100.925 148.3)"
+                  fill="#6E796D"
+                />
+                <circle
+                  cx="74.261"
+                  cy="155.195"
+                  r="5"
+                  transform="rotate(-11.3768 74.261 155.195)"
+                  fill="#6E796D"
+                />
+                <circle
+                  cx="36.5328"
+                  cy="91.8936"
+                  r="2.5"
+                  transform="rotate(-11.3768 36.5328 91.8936)"
+                  fill="#6E796D"
+                />
+                <circle
+                  cx="153.189"
+                  cy="63.3205"
+                  r="12.5"
+                  transform="rotate(-11.3768 153.189 63.3205)"
+                  fill="#6E796D"
+                />
+                <circle
+                  cx="116.919"
+                  cy="73.1687"
+                  r="10"
+                  transform="rotate(-11.3768 116.919 73.1687)"
+                  fill="#6E796D"
+                />
+                <circle
+                  cx="85.1558"
+                  cy="80.0698"
+                  r="7.5"
+                  transform="rotate(-11.3768 85.1558 80.0698)"
+                  fill="#6E796D"
+                />
+                <circle
+                  cx="58.492"
+                  cy="86.965"
+                  r="5"
+                  transform="rotate(-11.3768 58.492 86.965)"
+                  fill="#6E796D"
+                />
+              </g>
+              <path
+                d="M197.213 143L171.183 9.99999H188.853L206.523 99.87L224.194 9.99999H241.864L259.344 99.87L277.014 9.99999H294.684L268.653 143H250.224L232.933 54.84L215.643 143H197.213ZM312.656 143C308.856 143 305.563 141.67 302.776 139.01C300.116 136.223 298.786 132.93 298.786 129.13V61.68C298.786 57.88 300.116 54.65 302.776 51.99C305.563 49.33 308.856 48 312.656 48H338.496C342.423 48 345.716 49.33 348.376 51.99C351.036 54.65 352.366 57.88 352.366 61.68V90.56C352.366 94.36 351.036 97.6533 348.376 100.44C345.716 103.1 342.423 104.43 338.496 104.43H316.646V118.3C316.646 120.2 317.28 121.847 318.546 123.24C319.94 124.507 321.65 125.14 323.676 125.14H348.376L352.366 143H312.656ZM316.646 86.57H327.666C329.566 86.57 331.15 85.9367 332.416 84.67C333.81 83.2767 334.506 81.63 334.506 79.73V72.7C334.506 70.8 333.81 69.2167 332.416 67.95C331.15 66.5567 329.566 65.86 327.666 65.86H323.676C321.65 65.86 319.94 66.5567 318.546 67.95C317.28 69.2167 316.646 70.8 316.646 72.7V86.57ZM365.769 143V4.48999L383.629 0.499989V48H405.479C409.279 48 412.509 49.33 415.169 51.99C417.955 54.65 419.349 57.9433 419.349 61.87V129.13C419.349 132.93 417.955 136.223 415.169 139.01C412.509 141.67 409.279 143 405.479 143H365.769ZM383.629 125.14H394.459C396.359 125.14 398.005 124.507 399.399 123.24C400.792 121.847 401.489 120.2 401.489 118.3V72.7C401.489 70.8 400.792 69.2167 399.399 67.95C398.005 66.5567 396.359 65.86 394.459 65.86H383.629V125.14ZM471.97 143V27.67H445.56V9.99999H516.05V27.67H489.64V143H471.97ZM513.761 143V48H553.471C557.271 48 560.501 49.3933 563.161 52.18C565.948 54.84 567.341 58.07 567.341 61.87V82.58L549.481 78.59V72.89C549.481 70.99 548.784 69.3433 547.391 67.95C546.124 66.5567 544.541 65.86 542.641 65.86H531.621V143H513.761ZM588.861 143C585.061 143 581.768 141.67 578.981 139.01C576.321 136.223 574.991 132.93 574.991 129.13V61.68C574.991 57.88 576.321 54.65 578.981 51.99C581.768 49.33 585.061 48 588.861 48H614.701C618.628 48 621.921 49.33 624.581 51.99C627.241 54.65 628.571 57.88 628.571 61.68V90.56C628.571 94.36 627.241 97.6533 624.581 100.44C621.921 103.1 618.628 104.43 614.701 104.43H592.851V118.3C592.851 120.2 593.485 121.847 594.751 123.24C596.145 124.507 597.855 125.14 599.881 125.14H624.581L628.571 143H588.861ZM592.851 86.57H603.871C605.771 86.57 607.355 85.9367 608.621 84.67C610.015 83.2767 610.711 81.63 610.711 79.73V72.7C610.711 70.8 610.015 69.2167 608.621 67.95C607.355 66.5567 605.771 65.86 603.871 65.86H599.881C597.855 65.86 596.145 66.5567 594.751 67.95C593.485 69.2167 592.851 70.8 592.851 72.7V86.57ZM640.737 143V48H680.447C684.121 48 687.351 49.33 690.137 51.99C692.924 54.65 694.317 57.88 694.317 61.68V143H676.457V72.7C676.457 70.6733 675.761 69.0267 674.367 67.76C672.974 66.4933 671.391 65.86 669.617 65.86H658.597V143H640.737ZM718.373 143C714.446 143 711.153 141.67 708.493 139.01C705.833 136.35 704.503 133.057 704.503 129.13V61.87C704.503 57.9433 705.833 54.65 708.493 51.99C711.153 49.33 714.446 48 718.373 48H740.223V4.67999L758.083 0.499989V143H718.373ZM729.203 125.14H740.223V65.86H729.203C727.43 65.86 725.846 66.4933 724.453 67.76C723.06 69.0267 722.363 70.6733 722.363 72.7V118.3C722.363 120.073 723.06 121.657 724.453 123.05C725.846 124.443 727.43 125.14 729.203 125.14Z"
+                fill="#3A3389"
+              />
+              <defs>
+                <clipPath id="clip0_0_1">
+                  <rect
+                    width="175"
+                    height="143"
+                    fill="white"
+                    transform="translate(0 44.6722) rotate(-11.3768)"
+                  />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
         </div>
+
+        <div class="nav-items">
+          <div class="nav-links">
+            <a href="#" class="active nav-item">Home</a>
+            <a href="#about" class="nav-item">About</a>
+            <a href="#services" class="nav-item">Services</a>
+            <a href="#contact" class="nav-item">Contact</a>
+
+            <button class="nav-btn nav-item" type="button">Get Started</button>
+          </div>
+
+          <div class="toggle-menu">
+            <input type="checkbox" id="checkbox" />
+            <label for="checkbox" class="toggle">
+              <div class="bars" id="bar1"></div>
+              <div class="bars" id="bar2"></div>
+              <div class="bars" id="bar3"></div>
+            </label>
+          </div>
+        </div>
+      </div>
     </header>
 
     <!--====== HERO SECTION ======-->
     <section id="hero" class="home">
-        <div class="hero-content">
-            <div>
-                <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</h1>
-                <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit"</p>
-            </div>
-    
-            <div class="cta">
-                <a class="cta-btn" type="button">Get Started</a>
-            </div>
+      <div class="hero-content">
+        <div>
+          <h1>Lorem ipsum dolor sit amet, consectetur...</h1>
+          <p>
+            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+            aspernatur aut odit aut fugit"
+          </p>
         </div>
+
+        <div class="cta">
+          <a class="cta-btn" type="button">Get Started</a>
+        </div>
+      </div>
     </section>
 
     <!--====== ABOUT SECTION ======-->
     <section id="about">
-        
+      <div class="section-title">
+        <p>About Us</p>
+        <h2>WHAT WE ARE</h2>
+      </div>
+
+      <div class="about-content">
+        <div class="about-content-main">
+          <h3>
+            Voluptatem dignissimos provident quasi corporis voluptates sit
+            assumenda.
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <ul class="about-list">
+            <li>
+              <i class="gg-check-r"></i>Ullamco laboris nisi ut aliquip ex ea
+              commodo consequat.
+            </li>
+            <li>
+              <i class="gg-check-r"></i>Ullamco laboris nisi ut aliquip ex ea
+              commodo consequat. Duis aute irure dolor in reprehenderit in
+              voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
+              pariatur.
+            </li>
+            <li>
+              <i class="gg-check-r"></i>Consequuntur sunt aut quasi enim aliquam
+              quae harum pariatur laboris nisi ut aliquip.
+            </li>
+          </ul>
+          <p>
+            Voluptatem dignissimos provident quasi corporis voluptates sit assum
+            perenda sruen jonee trave.
+          </p>
+        </div>
+        <div class="about-image">
+          <img src="{% static 'images/about1.jpg' %}" alt="" srcset="" />
+        </div>
+      </div>
     </section>
     
+    <!--====== CLIENTS SECTION ======-->
+
+    
+
     <script src="{% static 'script/script.js' %}"></script>
-</body>
+  </body>
 </html>
