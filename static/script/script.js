@@ -13,7 +13,7 @@ function menuToggle() {
     checkbox.checked = !checkbox.checked;
 
     if (checkbox.checked) {
-      menu.style.height = "300px";
+      menu.style.height = "350px";
     } else {
       closeMenu();
     }
