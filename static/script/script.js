@@ -1,19 +1,20 @@
-function menuToggle() {
+function app() {
+  //:::::::::::: MENU ITEMS DROPDOWN ::::::::::::
   const menu = document.querySelector(".nav-links");
   const toggleMenu = document.querySelector(".toggle-menu");
   const checkbox = document.querySelector("#checkbox");
   const menuItems = document.querySelectorAll(".nav-links .nav-item");
 
   function closeMenu() {
-    menu.style.height = "0"; // Hide the menu
-    checkbox.checked = false; // Uncheck the checkbox
+    menu.style.height = "0";
+    checkbox.checked = false;
   }
 
   toggleMenu.addEventListener("click", function (event) {
     checkbox.checked = !checkbox.checked;
 
     if (checkbox.checked) {
-      menu.style.height = "350px";
+      menu.style.height = "300px";
     } else {
       closeMenu();
     }
@@ -32,8 +33,37 @@ function menuToggle() {
       closeMenu();
     }
   });
+
+  //:::::::::::: FAQ ITEMS DROPDOWN ::::::::::::
+  // document.querySelectorAll(".faq-checkbox").forEach((checkbox) => {
+  //   checkbox.addEventListener("change", function () {
+  //     if (this.checked) {
+  //       document.querySelectorAll(".faq-checkbox").forEach((otherCheckbox) => {
+  //         if (otherCheckbox !== this) {
+  //           otherCheckbox.checked = false;
+  //         }
+  //       });
+  //     }
+  //   });
+  // });
+
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".faq-checkbox").forEach((checkbox) => {
+      checkbox.addEventListener("change", function () {
+        if (this.checked) {
+          document
+            .querySelectorAll(".faq-checkbox")
+            .forEach((otherCheckbox) => {
+              if (otherCheckbox !== this) {
+                otherCheckbox.checked = false;
+              }
+            });
+        }
+      });
+    });
+  });
 }
 
-menuToggle();
+app();
 
-// console.log(menuItems);
+// // console.log(menuItems);
