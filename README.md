@@ -47,4 +47,4 @@ This project includes a comprehensive suite of tests to ensure its functionality
             docker-compose run web python manage.py test
 
 ### Contact
-if you have any question or need further assistance, please feel free to click [![Discord](https://img.shields.io/badge/Discord-Join%20our%20server-7289DA?logo=discord&logoColor=white)](https://discord.com/invite/pdfTAUpA).
+if you have any question or need further assistance, please feel free to click [![Discord](https://img.shields.io/badge/Discord-Join%20our%20server-7289DA?logo=discord&logoColor=white)](https://discord.com/invite/pdfTAUpA)
