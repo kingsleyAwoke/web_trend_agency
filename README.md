@@ -55,4 +55,4 @@ This project includes a comprehensive suite of tests to ensure its functionality
             __docker-compose run web python manage.py test__
 
 ### Contact
-if you have any question or need further assistance, please feel free to message one of the project managers on [whatsapp], (https//wa.me/+2349040233296).
+if you have any question or need further assistance, please feel free to join our Discord channel [![Discord](https://img.shields.io/badge/Discord-Join%20our%20server-7289DA?logo=discord&logoColor=white)](https://discord.com/invite/pdfTAUpA).
