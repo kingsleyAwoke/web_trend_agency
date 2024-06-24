@@ -3,11 +3,9 @@
 Welcome to **Web Trend Agency** repository! This is a Django web app that is intended for recognized individuals only.
 
 ## Getting Started
-
 To gain access to this web app, please follow the steps below:
 
 ### Prerequisties
-
 Ensure that you meet the following requirements:
 
 - You have been granted access to the project by the project managers.
@@ -29,12 +27,6 @@ Ensure that you meet the following requirements:
 4. Access the application in your web browser:
     __http//localhost:8000/__
 
-
-### Contributing
-This project is not open to public Contributions. if you are intrested in contributing, please join our Telegram group for recognition. Here's how you can join:
-    1. Sign up for a [Telegram account] (https://web.telegram.org/k/).
-    2. Join out Telegram group by clicking [there] (https://t.me/+Yr6L9n-lymFKMmU1)
-
 ### project Structure
 The project follows a standard Django project structure, with following important directories and files:
 
@@ -49,10 +41,10 @@ The project follows a standard Django project structure, with following importan
 This project includes a comprehensive suite of tests to ensure its functionality and reliabilty. To run the tests, follow the steps below:
 
     1. Make sure you have installed the project dependencies.
-    2. Change into the project directory.
+    2. Change into the app directory.
     3. Run the test.
-        **bash**
-            `docker-compose run web python manage.py test`
+        bash
+            docker-compose run web python manage.py test
 
 ### Contact
-if you have any question or need further assistance, please feel free to [![Discord](https://img.shields.io/badge/Discord-Join%20our%20server-7289DA?logo=discord&logoColor=white)](https://discord.com/invite/pdfTAUpA).
+if you have any question or need further assistance, please feel free to click [![Discord](https://img.shields.io/badge/Discord-Join%20our%20server-7289DA?logo=discord&logoColor=white)](https://discord.com/invite/pdfTAUpA).
