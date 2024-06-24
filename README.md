@@ -51,8 +51,8 @@ This project includes a comprehensive suite of tests to ensure its functionality
     1. Make sure you have installed the project dependencies.
     2. Change into the project directory.
     3. Run the test.
-        ```bash```
-            __docker-compose run web python manage.py test__
+        **bash**
+            `docker-compose run web python manage.py test`
 
 ### Contact
-if you have any question or need further assistance, please feel free to join our Discord channel [![Discord](https://img.shields.io/badge/Discord-Join%20our%20server-7289DA?logo=discord&logoColor=white)](https://discord.com/invite/pdfTAUpA).
+if you have any question or need further assistance, please feel free to [![Discord](https://img.shields.io/badge/Discord-Join%20our%20server-7289DA?logo=discord&logoColor=white)](https://discord.com/invite/pdfTAUpA).
